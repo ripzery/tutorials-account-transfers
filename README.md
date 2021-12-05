@@ -61,3 +61,7 @@ query{
   }
 ```
 
+# Output
+
+## Lesson 1
+![Output Lesson 1](output.png)
