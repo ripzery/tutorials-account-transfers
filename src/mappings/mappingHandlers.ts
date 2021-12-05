@@ -5,7 +5,7 @@ import {Balance} from "@polkadot/types/interfaces";
 export async function handleEvent(event: SubstrateEvent): Promise<void> {
     // The balances.transfer event has the following payload \[from, to, value\] that we can access
     
-    // const fromAddress = event.event.data[0];
+    const fromAddress = event.event.data[0];
     const toAddress = event.event.data[1]; 
     const amount = event.event.data[2];
 
